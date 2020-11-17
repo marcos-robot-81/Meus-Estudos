@@ -1,0 +1,35 @@
+body{
+    background-image: linear-gradient(180deg, rgb(1, 18, 44),rgb(159, 188, 201) ) ;
+}
+h1#Rayziru{
+    text-align: center;
+    font-size: 55px;
+    color: rgb(215, 238, 244);
+}
+h1{color: rgb(159, 188, 201);
+    font-size: 30px;
+}
+section#com{
+    overflow: hidden;
+}
+section.Nome{
+    border: rgba(0,0,0,0) solid 1px;
+    text-align: center;
+    float: left;
+    margin-top: -40px;
+    padding: 0% 1% 0% 6% ;
+    margin-bottom: 7%;
+}
+header.conteudo{
+    border:rgba(0,0,0,0) solid 1px;
+    border-radius: 10%;
+    background-color: rgb(0,16,43);
+    color: white;
+    height: 500px;
+    width: 500px;
+    padding: 20px;
+    text-align: justify;
+}
+p{
+    font-size: 20px;
+}

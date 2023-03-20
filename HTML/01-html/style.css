@@ -1,16 +1,24 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Iso&display=swap');
 body{
-    background-image: linear-gradient(180deg, rgb(1, 18, 44),rgb(159, 188, 201) ) ;
+    background-image: linear-gradient(180deg, rgb(1, 9, 22),rgb(3, 0, 26) ) ;
 }
 h1#Rayziru{
     text-align: center;
     font-size: 55px;
-    color: rgb(215, 238, 244);
+    color: rgb(134, 30, 252);
+    font-family: 'Rubik Iso', cursive ;
+        
+}
+header#title{
+    
 }
 h1{color: rgb(159, 188, 201);
     font-size: 30px;
 }
 section#com{
     overflow: hidden;
+    background-color: rgba(0, 0, 0, 0);
 }
 section.Nome{
     border: rgba(0,0,0,0) solid 1px;
@@ -22,7 +30,7 @@ section.Nome{
 }
 header.conteudo{
     border:rgba(0,0,0,0) solid 1px;
-    border-radius: 10%;
+    border-radius: 2%;
     background-color: rgb(0,16,43);
     color: white;
     height: 500px;

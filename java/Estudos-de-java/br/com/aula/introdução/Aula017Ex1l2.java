@@ -2,7 +2,7 @@ package br.com.aula.introdução;
 
 public class Aula017Ex1l2 {
     public static void main(String[] main){
-        float pcarro = 64500;
+        float pcarro = 16450;
         int npacelas = 0;
         float vpcarros =pcarro;
         while (vpcarros > 1000){

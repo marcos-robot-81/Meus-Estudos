@@ -1,0 +1,24 @@
+Tipo	    Formato	        Observações
+char	    %c	            Um único caractere
+int	        %d ou %i	    Um inteiro (Base decimal)
+int	        %o	            Um inteiro (Base octal)
+int	        %x ou %X	    Um inteiro (Base hexadecimal)
+short int	%hd	            Um short inteiro (Base decimal)
+long int	%ld	            Um long inteiro (Base decimal)
+unsigned    short int %hu   Short inteiro positivo
+unsigned    int	%u	        Inteiro positivo
+unsigned    long int %lu	Long inteiro positivo
+float	    %f ou %e ou %E	
+double	    %f ou %e ou %E	
+
+Repare que a variável do tipo float é armazenada com seis casas decimais. Para reduzir esse número, utiliza-se %.1f, %.2f, entre outros. O número entre “.” e “f” indica as casas decimais exibidas. É importante lembrar que o conteúdo da variável permanece inalterado, visto que a mudança afeta apenas a forma como será feita a escrita na tela. Vamos fazer um teste!
+
+Entrada de dados em C:
+    scanf()
+    >E composto pela String que traz o formato de leitura, com %d %f ou %c entre aspas.
+    >Armazena o volar recebido, sendo o nome dessa variával precedido de &.
+
+    < %d para as variáveis do tipo int
+    < %f para as do tipo float
+    < %c para as do tipo char
+    < %s para armazena uma letra por array.

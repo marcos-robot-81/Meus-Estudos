@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <h1>degite um valor</h1>
+
+        <input type="number" id="numero1">
+        <input type="number" id="numero2">
+    <button onclick="soma()">Calcula</button>
+            <div id="resposta"></div>
+
+        <script>
+            function soma(){
+                var n1 = [0,0,0]
+                var res = document.getElementById('resposta');
+                n1[0] = parseInt(document.getElementById('numero1').value);
+                n1[1] = parseInt(document.getElementById('numero2').value);
+                n1[2] = n1[0]+n1[1];
+                res.innerHTML="<p>A suma e :&nbsp;&nbsp;   "+n1[2]+" </p>";
+                
+            }
+        </script>
+</body>
+</html>

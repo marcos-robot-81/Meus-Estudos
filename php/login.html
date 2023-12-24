@@ -4,17 +4,61 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <Style>
+        body {
+            display: inline-block;
+        }
+        div{
+            text-align: center;
+            display: inline-block;
+            border: 2px black solid;
+            padding: 0px 15px 10px 10px;
+        }
+        
+    </Style>
 </head>
 <body>
-    <header>
-        <form action="gol.php" method="request">
-            <label for="nome">nome</label>
-            <input typr="text" name="name" id="idnome"/>
-            <label for="senha" method="senha">senha</label>
-            <input type="password" name="senha" id="senha">
+    <div>
+        <form action="acer.php" method="request">
+            <h3>login</h3>
+            
+            <label for="nome">nome: </label>
+            <input typr="text" name="name" id="idnome" required="trul" />
+            <br/>
+            <label for="senha" method="senha">senha: </label>
+            <input type="password" name="senha" id="senha" required="trul" >
+            <br/>
             <input type="submit" value="Enviar">
 
         </form>
-    </header>
+    </div>
+    <br/>
+    <div>
+        <form action="***" method="request">
+            <h3>cadastro</h3>
+            
+            <label for="nome">nome:</label>
+            <input typr="text" name="name" id="idnome" required="trul"/>
+            <br/>
+            <label for="senha" method="senha">senha:</label>
+            <input type="password" name="senha" id="senha" required="trul"/>
+            <br/>
+            
+            <label for="Cromosomo" method="sexo">Cromosomo:</label>
+            <br/>
+            <label for="Xy: " method="sexo">Xy:</label>
+            <input type="radio" value="Xy"/>
+            <label for="Xx: " method="sexo">Xx:</label>
+            <input type="radio" value="xx"/>
+            <label for="X??: " method="sexo">X??:</label>
+            <input type="radio" value="x?"/>
+            <br/>
+            <label for="data">Data de canimeto</label><br/>
+            <input type="date" value="data">
+            <br/>
+            <input type="submit" value="Enviar">
+
+        </form>
+    </div>
 </body>
 </html>

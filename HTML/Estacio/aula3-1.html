@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+
+        <script>
+            var n = 1;
+            function ola(){
+                // para sauva os valores do input
+                var password = document.getElementById('password').value;
+                var name = document.getElementById('nema').value;
+                //para save o ideredo da teg no dom
+                var div = document.getElementById('escrava');
+                //para cria um elemeto no dom
+                var texto = document.createElement('p');
+                //para add um texto no elemetos criado
+                texto.textContent = "Seu nome e "+name+" sua senha e "+password;
+                //document.body.appendChild(testo); <-- um texto desconsidere
+                if(n === 1){
+                    //para add o texto criado netro da tequi.
+                div.appendChild(texto);
+                n = 0
+                }else{
+                    //para apága tudo detro da tequi.
+                div.innerHTML = "";
+                n = 1
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <h1>Digite seu Nome:</h1>
+        <nav>
+            <input type="text" required="trul" id="nema">
+            <input type="password" required="trul" id="password" >
+            <button value="Enviear" id="ola" onclick="ola()" >Emvia</button>
+        </nav>
+        <div id="escrava"></div>
+    </body>
+</Html>

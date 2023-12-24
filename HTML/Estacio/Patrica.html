@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<HTML>
+    <head>
+        <link rel="icon" href="data:;base64,iVBORw0KGgo=">
+        <script>
+        var n = 0;
+
+        function lab() {
+            var n1 = parseInt(document.getElementById('valo1').value);
+            var n2 = parseInt(document.getElementById('valo2').value);
+            
+            var di = document.getElementById('respota');
+            di.innerHTML = "<h2> "+n1+"<br/>"+n2+"+<br/><hr/>"+(n1+n2)+"</h2>";
+
+        }
+    </script>
+
+    </head>
+    <body style="display: inline-block; text-align: center;">
+        <h2>soma de 2 valores</h2>
+        <br/>
+        <input type="number" id="valo1">
+        <p>+</p>
+        <input type="number" id="valo2">
+        <br/>
+        <button onclick="lab()">Calcula</button> 
+        <div id="respota">
+            <p>[]</p>
+        </div>
+
+    </body>
+</HTML>

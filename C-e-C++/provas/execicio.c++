@@ -25,3 +25,4 @@ int main(){
     printf("\nO manhor valor e: %d",v);
 }
  
+ 

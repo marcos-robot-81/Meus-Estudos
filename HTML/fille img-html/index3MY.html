@@ -1,0 +1,29 @@
+
+<!Doctype html>
+<html>
+    <head></head>
+    <body>
+
+        <h1>teste de emvio</h1>
+        <p>esse fui eu que fis</p>
+
+        
+        <input type="file" id="file" >
+        <input type="button" onclick="mostrafoto()" value="ok" id="0">
+        <nav> <img src='' id="saida"></nav>
+        
+        
+        <script>
+            const saida = document.querySelector('#saida');
+            function mostrafoto(){
+                const leitor = new FileReader();
+                var caraquite = document.getElementById('file');                
+                caraquite = caraquite.files[0]      
+                leitor.onload = function(event){
+                  saida.src= event.target.result;  
+                };
+                leitor.readAsDataURL(caraquite);       
+            };
+        </script>
+    </body>
+</html>

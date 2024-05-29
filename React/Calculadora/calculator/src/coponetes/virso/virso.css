@@ -1,0 +1,11 @@
+.div1 {
+    width: 260px;
+    height: 80px;
+    background-color: rgb(57, 78, 65);
+    margin: 12px;
+    margin-left: 22px;
+    padding: 20px;
+    text-align:end;
+    border-radius: 12px;
+
+}

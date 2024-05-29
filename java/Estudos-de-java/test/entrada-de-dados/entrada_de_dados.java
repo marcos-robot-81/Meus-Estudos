@@ -34,9 +34,5 @@ public class entrada_de_dados{
 
         fun.entradaName();
 
-        
-
-
-
     };
 };

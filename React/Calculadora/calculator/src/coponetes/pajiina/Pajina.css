@@ -1,0 +1,19 @@
+.pajina {
+    width: 350px;
+    height: 480px;
+    background-color: rgb(192, 192, 192);
+    padding: 10px;
+   
+    border-radius: 10px;
+    
+}
+
+.butão {
+    
+    
+    width: 260px;
+    height: 300px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-left: 42px;
+}
